@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <script src="script/utils/pixi.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">My awesome game!</h1>
+    </header>
+    <div class="game-window">
+    </div>
+    <div class="controls">
+        <button id="connect-button" class="start-game">connect</button>
+    </div>
+    <script src="script/utils/keyboard.js"></script>
+    <script src="script/maps/maps.js"></script>
+    <script src="script/gameObjects/Character.js"></script>
+    <script src="script/CollisionResolver.js"></script>
+    <script src="script/GameProcess.js"></script>
+    <script src="script/gameObjects/environment/EnvironmentObject.js"></script>
+    <script src="script/gameObjects/environment/Stone.js"></script>
+    <script src="script/gameObjects/environment/Wall.js"></script>
+    <script src="script/gameObjects/environment/Grass.js"></script>
+    <script src="script/gameObjects/Treasure.js"></script>
+    <script src="script/gameObjects/potions/Potion.js"></script>
+    <script src="script/gameObjects/potions/PotionSlowness.js"></script>
+    <script src="script/gameObjects/potions/PotionTransparency.js"></script>
+    <script src="script/maps/MapGenerator.js"></script>
+    <script src="script/network/queries.js"></script>
+    <script src="script/app.js"></script>
+</body>
+</html>
